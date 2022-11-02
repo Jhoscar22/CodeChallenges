@@ -49,7 +49,7 @@ std::vector<Point> interpolate(Point p1, Point p2) {
 
         points.push_back(p1);
     } else if (p2.x == p1.x) {
-        float temp = p1.x;
+        int temp = p1.x;
         p1.x = p1.y;
         p1.y = temp;
         temp = p2.x;
